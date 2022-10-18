@@ -121,14 +121,3 @@ return long;
 };
 
 
-//Bonus 1
-// Add a method reverseString (from question 6) to the object String so that it is possible to call: "Per Scholas".reverseString().
-let str = {
-  reverseString: () => {
-    // ADD YOUR CODE HERE
-    let reverserStr= [...str].revese().join('');
-    return reverserStr;
-  }
-}
-console.log(str.reverseString())
-
